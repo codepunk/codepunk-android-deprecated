@@ -24,13 +24,10 @@ import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.codepunk.codepunklib.util.log.LogManager;
-import com.codepunk.codepunklib.util.log.FormattingLogger;
 import com.codepunk.codepunk.app.SessionManager;
 import com.codepunk.codepunk.app.SessionManager.State;
 
@@ -79,10 +76,6 @@ public class MainActivity extends AppCompatActivity
     mLocalBroadcastManager = LocalBroadcastManager.getInstance(this);
     mHelloTextView = (TextView) findViewById(R.id.text_hello);
     mAuthenticateButton = (Button) findViewById(R.id.button_authenticate);
-
-    LogManager manager = LogManager.getInstance();
-    FormattingLogger logger = manager.get(Log.VERBOSE);
-    boolean loggable = logger.isLoggable(Log.DEBUG);
   }
 
   /**
