@@ -2,5 +2,5 @@
 <resources>
   <string name="app_name">CP Dev</string>
 
-  <string name="authenticator_account_type">com.codepunk.codepunkshell-dev</string>
+  <string name="authenticator_account_type">com.codepunk.codepunk-dev</string>
 </resources>

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CodepunkShell.iml" filepath="$PROJECT_DIR$/CodepunkShell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codepunk.iml" filepath="$PROJECT_DIR$/Codepunk.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/CodepunkLib/lib/codepunklib.iml" filepath="$PROJECT_DIR$/libraries/CodepunkLib/lib/codepunklib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraries/CodepunkLib_beta/lib/codepunklib_beta.iml" filepath="$PROJECT_DIR$/libraries/CodepunkLib_beta/lib/codepunklib_beta.iml" />
     </modules>
   </component>
 </project>

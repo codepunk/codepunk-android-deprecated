@@ -1,3 +1,2 @@
-include ':app', ':codepunklib', ':codepunklib_beta'
+include ':app', ':codepunklib'
 project(':codepunklib').projectDir = new File('libraries/CodepunkLib/lib')
-project(':codepunklib_beta').projectDir = new File('libraries/CodepunkLib_beta/lib')

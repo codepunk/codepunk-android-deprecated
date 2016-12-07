@@ -7,7 +7,7 @@ android {
     buildToolsVersion "24.0.1"
 
     defaultConfig {
-        applicationId "com.codepunk.codepunkshell"
+        applicationId "com.codepunk.codepunk"
         minSdkVersion 9
         targetSdkVersion 25
         versionCode 1
@@ -22,27 +22,27 @@ android {
     productFlavors {
         prod {
             buildConfigField(
-                    "com.codepunk.codepunkshell.app.Environment",
+                    "com.codepunk.codepunk.app.Environment",
                     "DEFAULT_ENVIRONMENT",
-                    "com.codepunk.codepunkshell.app.Environment.PRODUCTION")
+                    "com.codepunk.codepunk.app.Environment.PRODUCTION")
         }
 
         dev {
             applicationIdSuffix ".dev"
             versionNameSuffix "-dev"
             buildConfigField(
-                    "com.codepunk.codepunkshell.app.Environment",
+                    "com.codepunk.codepunk.app.Environment",
                     "DEFAULT_ENVIRONMENT",
-                    "com.codepunk.codepunkshell.app.Environment.DEVELOPMENT")
+                    "com.codepunk.codepunk.app.Environment.DEVELOPMENT")
         }
 
         local {
             applicationIdSuffix ".dev"
             versionNameSuffix "-dev"
             buildConfigField(
-                    "com.codepunk.codepunkshell.app.Environment",
+                    "com.codepunk.codepunk.app.Environment",
                     "DEFAULT_ENVIRONMENT",
-                    "com.codepunk.codepunkshell.app.Environment.LOCAL")
+                    "com.codepunk.codepunk.app.Environment.LOCAL")
         }
     }
 
@@ -74,6 +74,5 @@ dependencies {
     compile 'com.google.guava:guava:19.0'
     compile 'org.apache.commons:commons-lang3:3.4'
     compile project(':codepunklib')
-    compile project(':codepunklib_beta')
     testCompile 'junit:junit:4.12'
 }
