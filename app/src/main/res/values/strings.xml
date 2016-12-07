@@ -1,0 +1,26 @@
+<resources>
+  <string name="app_name">Codepunk</string>
+
+  <string name="app_login">Login</string>
+  <string name="app_logout">Logout</string>
+
+  <string name="authenticator_account_type">com.codepunk.codepunkshell</string>
+  <string name="authenticator_username_required">Username is required.</string>
+  <string name="authenticator_password_required">Password is required.</string>
+  <string name="authenticator_account_exists">The account \'%s\' already exists.</string>
+
+  <string name="authenticator_token_type_unknown">Unknown</string>
+  <string name="authenticator_token_type_default">Default</string>
+
+  <string name="main_invalid_user">User is not logged in.</string>
+  <string name="main_hello">Hello, %s!</string>
+
+  <string name="session_initialized">Initialized</string>
+  <string name="session_not_authenticated">Not authenticated</string>
+  <string name="session_authenticating">Authenticating…</string>
+  <string name="session_authenticated">Authenticated</string>
+  <string name="session_canceling">Canceling…</string>
+  <string name="session_canceled">Canceled</string>
+  <string name="session_error">Error</string>
+  <string name="session_error_reason">Error: %s</string>
+</resources>
